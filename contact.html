@@ -20,10 +20,24 @@
     </nav>
 </header>
 <article>
-    <h1>许魏洲·二专来袭</h1>
-    <p>“我会用我所有力量，搏得你们给我的，每一个15分钟。”</p>
-    <p>“拨开疯狂的表象，在音乐中找到真我。” </p>
-    <p>“ 疯狂是敢超出自我，是在保持自我本貌的同时，展露出无所畏惧的底色。”</p>
+<h1>联系我们</h1>
+    <form method="post" action="submit.html">
+        <fieldset>
+            <p>
+                <lable for="name">Name:</lable>
+                <input type="text" id="name" name="name" placeholder="Your name" required="required"/>
+            </p>
+            <p>
+                <lable for="email">Email:</lable>
+                <input type="email" id="email" name="email" placeholder="Your email address" required="required"/>
+            </p>
+            <p>
+                <lable for="message">Message:</lable>
+                <textarea cols="50" rows="6" id="message" name="message" placeholder="Write your message here." required="required"/></textarea>
+            </p>
+            <input type="submit" value="send"/>
+        </fieldset>
+    </form>
 </article>
 <script src="scripts/global.js"></script>
 
