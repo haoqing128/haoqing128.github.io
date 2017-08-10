@@ -78,8 +78,19 @@ article img{
 #contact header{
       background-image: url(../images/contact.jpg);
   }
+/*photos*/
 #imagegallery li {
     list-style-type: none;
     display: inline;
 
+}
+/*live*/
+td{
+    padding: .5em 3em;
+}
+label{
+    display: block;
+}
+fieldset{
+    border:0;
 }
